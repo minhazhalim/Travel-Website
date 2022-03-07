@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Travel Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container" id="nav">
+            <a href="index.html" class="logo">seaside</a>
+            <div class="nav-mobile">
+                <ul class="list">
+                    <li class="list-item"><a href="#showcase" class="list-link current">home</a></li>
+                    <li class="list-item"><a href="#popular-destinations" class="list-link">destination</a></li>
+                    <li class="list-item"><a href="#plan-trip" class="list-link">plan trip</a></li>
+                    <li class="list-item large-screen-hidden"><a href="#newsletter" class="list-link">book now</a></li>
+                </ul>
+            </div>
+            <a href="#" class="button small-screen-hidden">book now</a>
+            <div class="menu-toggle-icon large-screen-hidden place-items-center" id="menu-toggle-icon">
+                <i class="ri-menu-3-line menu-open-icon"></i>
+                <i class="ri-close-fill menu-close-icon"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section showcase" id="showcase">
+            <div class="container showcase-container display-grid">
+                <div class="showcase-data order-2">
+                    <span class="tagline">begin the journey</span>
+                    <h1 class="title main-title">heal your soul at the <span class="accent-text">beach!</span></h1>
+                    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique aliquid id quidem quis!</p>
+                    <a href="#" class="button">explore</a>
+                </div>
+                <div class="image-group order-1 display-grid">
+                    <div class="image-box image-left"><img src="./images/showcase-image-1.jpg" alt="Showcase 1"></div>
+                    <div class="image-box image-center"><img src="./images/showcase-image-2.jpg" alt="Showcase 2"></div>
+                    <div class="image-box image-right"><img src="./images/showcase-image-3.jpg" alt="Showcase 3"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section popular-destinations" id="popular-destinations">
+            <div class="container popular-destinations-container display-grid">
+                <div class="popular-destinations-data">
+                    <span class="tagline">popular destinations</span>
+                    <h1 class="title">beaches with the most <span class="accent-text">visitors</span> this year</h1>
+                    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique aliquid id quidem quis!</p>
+                    <a href="#" class="button">explore</a>
+                </div>
+                <div class="beach-data-wrapper image-box">
+                    <div class="beach-data">
+                        <div class="beach-data-inner width-50">
+                            <h3 class="beach-name">sunset beach park</h3>
+                            <span class="beach-location">
+                                <span class="accent-text"><i class="ri-map-pin-line"></i></span> pupukea, hi, usa
+                            </span>
+                        </div>
+                        <a href="#" class="button place-items-center"><i class="ri-arrow-right-s-line"></i></a>
+                    </div>
+                    <img src="./images/beach-hawaii.jpg" alt="Beach Hawaii">
+                </div>
+                <div class="secondary-grid display-grid">
+                    <div class="beach-data-wrapper image-box image-box-left">
+                        <div class="beach-data">
+                            <div class="beach-data-inner">
+                                <h3 class="beach-name">mantira beach</h3>
+                                <span class="beach-location">
+                                    <span class="accent-text"><i class="ri-map-pin-line"></i></span> bora bora, french polynesia
+                                </span>
+                            </div>
+                            <a href="#" class="button place-items-center"><i class="ri-arrow-right-s-line"></i></a>
+                        </div>
+                        <img src="./images/bora-bora-beach.jpg" alt="Bora Bora Beach">
+                    </div>
+                    <div class="beach-data-wrapper image-box image-box-center">
+                        <div class="beach-data">
+                            <div class="beach-data-inner width-50">
+                                <h3 class="beach-name">hulhumale beach</h3>
+                                <span class="beach-location">
+                                    <span class="accent-text"><i class="ri-map-pin-line"></i></span> male, maldives
+                                </span>
+                            </div>
+                            <a href="#" class="button place-items-center"><i class="ri-arrow-right-s-line"></i></a>
+                        </div>
+                        <img src="./images/maldives-beach.jpg" alt="Maldives Beach">
+                    </div>
+                    <div class="beach-data-wrapper image-box image-box-right">
+                        <div class="beach-data">
+                            <div class="beach-data-inner">
+                                <h3 class="beach-name">grace bay beach</h3>
+                                <span class="beach-location">
+                                    <span class="accent-text"><i class="ri-map-pin-line"></i></span> turks and caicos
+                                </span>
+                            </div>
+                            <a href="#" class="button place-items-center"><i class="ri-arrow-right-s-line"></i></a>
+                        </div>
+                        <img src="./images/turks-caicos-beach.jpg" alt="Turks Caicos Beach">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section plan-trip" id="plan-trip">
+            <div class="container plan-trip-container display-grid">
+                <div class="plan-trip-data">
+                    <span class="tagline">planning your trip</span>
+                    <h1 class="title main-title">let's <span class="accent-text">explore</span>your dream beach now!</h1>
+                    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique aliquid id quidem quis!</p>
+                    <a href="#" class="button">explore</a>
+                </div>
+                <div class="beach-data-wrapper image-box"><img src="./images/plan-trip-image.jpg" alt="Planning Trip"></div>
+            </div>
+        </section>
+        <section class="section newsletter" id="newsletter">
+            <div class="container newsletter-container">
+                <div class="newsletter-container-inner">
+                    <h2 class="title">subscribe now to get the latest seaside news. or start planning your trip by getting a quote today!</h2>
+                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, error deleniti consequatur quod at similique inventore, consequuntur pariatur voluptas doloribus amet voluptate non qui. Omnis ipsam repudiandae veniam maxime.</p>
+                    <div class="button-group">
+                        <a href="#" class="button button-light">subscribe now</a>
+                        <a href="#" class="button">get to a quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section">
+        <div class="container footer-container">
+            <div class="footer-container-inner display-grid">
+                <div>
+                    <h6 class="title footer-title">company</h6>
+                    <ul class="list">
+                        <li class="list-item"><a href="#" class="list-link">sample link</a></li>
+                        <li class="list-item"><a href="#" class="list-link">sample link</a></li>
+                        <li class="list-item"><a href="#" class="list-link">sample link</a></li>
+                        <li class="list-item"><a href="#" class="list-link">sample link</a></li>
+                        <li class="list-item"><a href="#" class="list-link">sample link</a></li>
+                    </ul>
+                </div>
+                <div class="contact-information">
+                    <h6 class="title footer-title">contact</h6>
+                    <address>
+                        <span>house#154, road#4, mohammadi housing society</span>
+                        <span>mohammadpur, dhaka-1207, bangladesh</span>
+                        <a href="tel:+8801961227611" class="text-decoration-underline">(+88)01961227611</a>
+                        <a href="mailto:" class="text-decoration-underline">mhzim93@gmail.com</a>
+                    </address>
+                    <ul class="list">
+                        <li class="list-item">
+                            <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link"><i class="ri-linkedin-box-line"></i></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link"><i class="ri-twitter-fill"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-separator">
+            <span class="copyright">&copy; 2022 seaside inc. all rights reserved.</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
